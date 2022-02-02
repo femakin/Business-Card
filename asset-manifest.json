@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86788e62.css",
+    "main.js": "/static/js/main.d878ba7d.js",
+    "static/media/Femiimage.jpeg": "/static/media/Femiimage.cf014ad90daeea4740a4.jpeg",
+    "static/media/linkedin.svg": "/static/media/linkedin.428e955672b18cdce36ebda64db7eedc.svg",
+    "index.html": "/index.html",
+    "static/media/email.svg": "/static/media/email.9a2254b41727510aba0d31da7ad223f9.svg",
+    "main.86788e62.css.map": "/static/css/main.86788e62.css.map",
+    "main.d878ba7d.js.map": "/static/js/main.d878ba7d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86788e62.css",
+    "static/js/main.d878ba7d.js"
+  ]
+}
