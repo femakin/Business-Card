@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/Business-Card/static/css/main.86788e62.css",
-    "main.js": "/Business-Card/static/js/main.a9bdda3b.js",
+    "main.css": "/Business-Card/static/css/main.bc2377cc.css",
+    "main.js": "/Business-Card/static/js/main.4d07f52d.js",
     "static/media/Femiimage.jpeg": "/Business-Card/static/media/Femiimage.cf014ad90daeea4740a4.jpeg",
+    "static/media/InstagramIcon.svg": "/Business-Card/static/media/InstagramIcon.7d8ad7f9b33a773c27398cacfc5a97a3.svg",
+    "static/media/GitHubIcon.svg": "/Business-Card/static/media/GitHubIcon.23d6dfa78140e8017f08351385915806.svg",
+    "static/media/TwitterIcon.svg": "/Business-Card/static/media/TwitterIcon.3f40423293e1813898c7e26f729a0705.svg",
     "index.html": "/Business-Card/index.html",
     "static/media/linkedin.svg": "/Business-Card/static/media/linkedin.428e955672b18cdce36ebda64db7eedc.svg",
+    "static/media/FacebookIcon.svg": "/Business-Card/static/media/FacebookIcon.00c353d38f22d18d3ff0962f9ce66f43.svg",
     "static/media/email.svg": "/Business-Card/static/media/email.9a2254b41727510aba0d31da7ad223f9.svg",
-    "main.86788e62.css.map": "/Business-Card/static/css/main.86788e62.css.map",
-    "main.a9bdda3b.js.map": "/Business-Card/static/js/main.a9bdda3b.js.map"
+    "main.bc2377cc.css.map": "/Business-Card/static/css/main.bc2377cc.css.map",
+    "main.4d07f52d.js.map": "/Business-Card/static/js/main.4d07f52d.js.map"
   },
   "entrypoints": [
-    "static/css/main.86788e62.css",
-    "static/js/main.a9bdda3b.js"
+    "static/css/main.bc2377cc.css",
+    "static/js/main.4d07f52d.js"
   ]
 }
