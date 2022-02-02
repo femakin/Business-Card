@@ -111,3 +111,8 @@ line-height: 16px;
     background: #1A1B21;    
     
 }
+
+.Interest-div{
+    display: flex;
+    justify-content: center;
+}

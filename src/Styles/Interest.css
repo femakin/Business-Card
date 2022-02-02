@@ -1,0 +1,28 @@
+.interest-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;    
+    /* padding: 15px 0px 20px; */
+}
+
+.interest-title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+
+color: #F5F5F5;
+}
+
+.interest-content{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10.24px;
+line-height: 150%;
+width: 247px;
+color: #DCDCDC;
+}
