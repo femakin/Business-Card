@@ -3,8 +3,11 @@ import Femiimage from "../images/Femiimage.jpeg";
 import "../Styles/Info.css";
 import email from '../images/email.svg'
 import linkedin from '../images/linkedin.svg'
+import { useNavigate, Link , Navigate} from "react-router-dom";
 
 export default function Info() {
+  let navigate = useNavigate();
+
 
     const ButtonMailto = ({mailto, className}) =>{
         return (
@@ -15,7 +18,18 @@ export default function Info() {
                 <img src={email} alt="email_icon" />   Email
             </button>
         )
+
     }
+
+
+
+    const onBackClick = e => {
+      e.preventDefault()
+      // navigate(-1);
+      navigate("/dashboard/orders")
+    }
+
+
 
 
   return (
@@ -34,8 +48,14 @@ export default function Info() {
           <ButtonMailto className="email-btn-socials" mailto="mailto:akinfemi46@gmail.com"/>
           </div>
           <div className="linkedin-btn">
-            {" "}
-            <button className="linkedin-btn-socials">  <img src={linkedin} alt="linkedin_icon" />    LinkedIn</button>{" "}
+            <button className="linkedin-btn-socials" >  <img src={linkedin} alt="linkedin_icon" />  <a
+            href="https://www.linkedin.com/in/femi-akinyemi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="a-target"
+          >
+            LinkedIn 
+          </a>  </button>
           </div>
         </div>
       </div>
