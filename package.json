@@ -1,7 +1,7 @@
 {
   "name": "soloprojectbusinesscardone",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://femakin.github.io/business-card",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
