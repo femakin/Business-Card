@@ -4,6 +4,10 @@ A simple business card originally made as a project for the Learn React course o
 
 Currently doubles as my personal website, since I did not like any of the designs of my previous attempts.[Scrimba](https://scrimba.com/dashboard?tab=overview).
 
+# URL
+
+[Here](https://femakin.github.io/Business-Card/)
+
 ### Technologies Used
 
 * React
