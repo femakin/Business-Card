@@ -6,6 +6,7 @@ import linkedin from '../images/linkedin.svg'
 import { useNavigate, Link , Navigate} from "react-router-dom";
 import About from "./About";
 import Interest from "./Interest";
+import Footer from "./Footer";
 
 export default function Info() {
   let navigate = useNavigate();
@@ -71,6 +72,11 @@ export default function Info() {
 
      <div className="Interest-div">
       <Interest/>
+     </div>
+
+
+     <div className="footer-div">
+       <Footer/>
      </div>
      </div>
     </div>

@@ -1,0 +1,12 @@
+.footer-div{
+    display: flex;
+    justify-content: center;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    padding: 30px;
+}
+
+.footer-section{
+    display: flex;
+    gap: 25px;
+}
