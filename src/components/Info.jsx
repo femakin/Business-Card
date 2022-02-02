@@ -4,6 +4,7 @@ import "../Styles/Info.css";
 import email from '../images/email.svg'
 import linkedin from '../images/linkedin.svg'
 import { useNavigate, Link , Navigate} from "react-router-dom";
+import About from "./About";
 
 export default function Info() {
   let navigate = useNavigate();
@@ -35,7 +36,8 @@ export default function Info() {
   return (
     <div className="info-body">
       <img src={Femiimage} alt="Femiimage" className="info-img" />
-      <div className="info-socials">
+     <div className="black-background">
+     <div className="info-socials">
         <div className="info-title-role">
           <h1 className="info-name">Femi Akinyemi</h1>
           <p className="info-role">Frontend Developer</p>
@@ -59,6 +61,12 @@ export default function Info() {
           </div>
         </div>
       </div>
+
+
+     <div className="about-div">
+     <About/>
+     </div>
+     </div>
     </div>
   );
 }
